@@ -6,14 +6,19 @@ The original controller uses a **TG7111B Bluetooth/RF MCU** and controls a two-c
 
 The replacement retains the original LED power electronics and MOSFET drivers. Only the wireless/control daughterboard is replaced.
 
-> ⚠️ **WARNING**
->
-> The main LED driver PCB is mains powered and contains potentially lethal voltages.
->
-> Do not probe, solder or continuity-test the mains side while powered.
->
-> The modifications described here are on the isolated low-voltage control side, but you must verify isolation on your particular light before assuming this is safe.
+## ⚠️ Disclaimer and Safety Warning
 
+I provide this information **without any warranty or guarantee of any kind**. Everything documented here is based solely on my own experience, measurements, reverse engineering and modifications performed on my particular device.
+
+Your device may differ, even if it appears externally identical or uses the same PCB/controller markings.
+
+If you choose to open, modify or otherwise work on your device, **you do so entirely at your own risk**.
+
+This equipment is mains powered and parts of the circuit operate at **potentially lethal voltages**. Extreme precautions must be taken when working on or around the mains-voltage sections of the device. Dangerous voltages may also remain present after power has been disconnected due to charged capacitors.
+
+Do not work on mains-powered equipment unless you understand the risks and have the appropriate knowledge, equipment and experience to do so safely.
+
+The information in this repository should **not** be treated as a manufacturer-approved modification, safety certification, or guarantee that the same modification will be safe or suitable for another device.
 ---
 
 ## Original Hardware
