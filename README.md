@@ -398,7 +398,7 @@ has not been established.
 
 It appears to act as a dual-channel LED/MOSFET driver, but this should be considered an inference until a reliable datasheet is found.
 
-The exact function of connector positions 4 and 7 has also not been established. No useful connection to the main LED driver was found during initial continuity testing.
+The exact function of connector positions 4 and 7 has also not been established. No useful connection to the main LED driver was found during initial continuity testing. the devce worked fine without them. 
 
 ---
 
